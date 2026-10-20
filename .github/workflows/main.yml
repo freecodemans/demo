@@ -1,0 +1,6 @@
+on: push
+jobs:
+  smoke:
+    runs-on: self-hosted
+    steps:
+      - run: echo "runner works! $(date)"
