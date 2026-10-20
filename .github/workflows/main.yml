@@ -1,6 +1,6 @@
 on: push
 jobs:
   smoke:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - run: echo "runner works! $(date)"
